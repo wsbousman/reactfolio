@@ -7,7 +7,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     { name: 'About', description: '', },
@@ -15,6 +14,7 @@ function App() {
     { name: 'Contact', description: 'Slide into the DMs' },
     { name: 'Resume', description: 'Client-facing experience' },
   ]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
     <div>
@@ -30,8 +30,7 @@ function App() {
       <main>
         {!contactSelected ? (
         <>
-        {/* <Gallery currentCategory={currentCategory}></Gallery> */}
-        <About></About>
+        <About currentCategory={currentCategory}></About>
         </>
         ) : (<ContactForm></ContactForm>)}
       <Footer></Footer>
