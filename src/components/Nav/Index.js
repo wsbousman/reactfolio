@@ -9,7 +9,7 @@ function Nav() {
             <Link to="/">About</Link>
             <Link to="/Project">Portfolio</Link>
             <Link to="/Contact">Contact</Link>
-            {/*<Link to="/Resume">Resume</Link>*/}
+            <a href="https://docs.google.com/document/d/e/2PACX-1vSowsgPrVXQK73tTIpiTiluEGLTF3jC4svEmgCnHfM-g8XVl_lmBdLVG22blKn3f7VMrkeOxyJBsZYx/pub">Resume</a>
         </nav>
     </header>
   );

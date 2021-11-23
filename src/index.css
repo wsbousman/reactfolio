@@ -88,10 +88,10 @@ a {
 }
 
 .nav {
-  padding: 0px 0px 15px 0px;
+  padding: 0px 100px 10px 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   font-weight: 200;
   font-size: 28px;
