@@ -98,3 +98,27 @@ a {
   color: rgb(0, 182, 238);
   text-shadow: 3px 3px #313131;
 }
+
+.inputLabel {
+  padding: 0px 10px 0px 0px;
+  font-weight: 300;
+  font-size: 22px;
+  color: #a80079;
+  text-shadow: 2px 2px #313131;
+}
+
+.input {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.slide {
+  padding: 15px 0px 10px 0px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #a80079;
+  text-shadow: 3px 3px #313131;
+}

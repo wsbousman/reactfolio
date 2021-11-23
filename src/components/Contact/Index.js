@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { validateEmail } from '../../Utils/helpers';
 
 function ContactForm() {
+
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const { name, email, message } = formState;
+    const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
         if (e.target.name === 'email') {
@@ -31,26 +35,30 @@ function ContactForm() {
 
     return (
         <section>
-          <h1>Get in contact</h1>
+            <div className="wrap">
+                <p className="slide">slide into the DMs</p>
+            </div>
           <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="name">Name:</label>
-              <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+            <div className="input">
+              <label htmlFor="name" className="inputLabel">name:</label>
+              <input type="text" defaultValue={name} onBlur={handleChange} size="30" name="name" />
             </div>
-            <div>
-              <label htmlFor="email">Email address:</label>
-              <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+            <div className="input">
+              <label htmlFor="email" className="inputLabel">email address:</label>
+              <input type="email" defaultValue={email} name="email" onBlur={handleChange} size="50"/>
             </div>
-            <div>
-              <label htmlFor="message">Message:</label>
-              <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+            <div className="input">
+              <label htmlFor="message" className="inputLabel">message:</label>
+              <textarea name="message" defaultValue={message} onBlur={handleChange} rows="15" cols="80" />
             </div>
             {errorMessage && (
                 <div>
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
+            <div className="input">
             <button type="submit">Submit</button>
+            </div>
           </form>
         </section>
         );
