@@ -17,7 +17,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div>
+    <div className="bg">
       <Header>
       <Nav
       categories={categories}
