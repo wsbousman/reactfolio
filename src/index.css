@@ -17,7 +17,7 @@ code {
     monospace;
 }
 
-.foot {
+.wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -27,5 +27,62 @@ code {
 .bg {
   background: url("https://i.imgur.com/xlEPGh1.png");
   background-size: cover;
-  animation: scroll 240s linear infinite;
+}
+
+.img {
+  width: 55%;
+  border-radius: 12px
+}
+
+.head {
+  padding: 0px 500px 20px 0px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #a80079;
+  text-shadow: 3px 3px #313131;
+  text-align: right
+}
+
+.h1 {
+  padding: 30px 0 0 500px;
+  font-size: 45px;
+  color: rgb(0, 182, 238);
+  text-shadow: 3px 3px #313131;
+}
+
+.about {
+  padding: 15px 0px 0px 450px;
+  font-weight: 200;
+  font-size: 28px;
+  color: rgb(0, 182, 238);
+  text-shadow: 3px 3px #313131;
+}
+
+.blurb {
+  padding: 10px 200px 0px 200px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #a80079;
+  text-shadow: 2px 2px #313131;
+}
+
+.moto {
+  padding: 10px 500px 0px 0px;
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+  color: #a80079;
+  text-shadow: 2px 2px #313131;
+}
+
+.foot {
+  padding: 20px 10px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  color: rgb(0, 182, 238);
 }
