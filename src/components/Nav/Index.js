@@ -2,8 +2,14 @@ import React from "react";
 import { capitalizeFirstLetter } from "../../Utils/helpers";
 
 function Nav(props) {
+
   const {
-    categories = [],
+    categories = [
+        { name: 'About', description: '', },
+        { name: 'Portfolio', description: 'Endlessly pursuing clean code' },
+        { name: 'Contact', description: 'Slide into the DMs' },
+        { name: 'Resume', description: 'Client-facing experience' }
+    ],
     setCurrentCategory,
     currentCategory,
     contactSelected,
