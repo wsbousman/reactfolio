@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import About from './components/About';
-import ContactForm from './components/Contact';
+// import ContactForm from './components/Contact';
 import Nav from './components/Nav';
-// import Project from './components/Project';
+import Project from './components/Project';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { 
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -18,6 +23,7 @@ function App() {
 
   return (
     <div className="bg">
+      <BrowserRouter>
       <Header>
       <Nav
       categories={categories}
@@ -28,13 +34,14 @@ function App() {
       ></Nav>
       </Header>
       <main>
-        {!contactSelected ? (
-        <>
-        <About currentCategory={currentCategory}></About>
-        </>
-        ) : (<ContactForm></ContactForm>)}
+        <Routes>
+          <Route exact path ="/" element={<About currentCategory={currentCategory}></About>}/>
+          <Route exact path="/project" element={<Project></Project>}/>
+          {/*<ContactForm></ContactForm>*/}
+        </Routes>
       <Footer></Footer>
       </main>
+      </BrowserRouter>
     </div>
   );
 }
