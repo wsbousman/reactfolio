@@ -13,12 +13,12 @@ function About() {
       </div>
       <div>
         <p className="blurb">
-        Will Bousman is a web developer living in Austin, Texas offering world-class technology services incorporating industry insights and adaptive acumen to leverage a strong foundation in engaging design principles, delivering dynamic solutions, fulfilling digital visions, and providing continuums of object-oriented scalable workforce service mobilization and reactive enterprise opportunities to digital innovation driving improved results streamlining actionable data into ideal versatile architechtural process management while simultaneously adventing mobile first value to disruptive strategic consulting business intelligence and online/database marketing technology that transforms clients through modern asynchronous machine learning tailored to emerging industries.
+        Hi, I'm Will. I'm a web developer living in Austin, Texas. Following graduation from The University of Texas at Austin's Full Stack Developer Program, I began offering world-class technology services incorporating industry insights and adaptive acumen to leverage a strong foundation in engaging design principles, delivering dynamic solutions, fulfilling digital visions, and providing continuums of object-oriented scalable workforce service mobilization and reactive enterprise opportunities to digital innovation driving improved results streamlining actionable data into ideal versatile architechtural process management while simultaneously adventing mobile first value to disruptive strategic consulting business intelligence and online/database marketing technology that transforms clients through modern asynchronous machine learning tailored to emerging industries.
         </p>
       </div>
       <div>
         <p className="moto">
-        Also he rides motorcycles
+        Also I ride motorcycles.
         </p>
       </div>
       </section>

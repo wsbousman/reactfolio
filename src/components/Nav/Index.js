@@ -8,8 +8,7 @@ function Nav() {
         <nav class="nav">
             <Link to="/">About</Link>
             <Link to="/Project">Portfolio</Link>
-            <Link to="/Contact">Contact</Link>
-            <a href="https://docs.google.com/document/d/e/2PACX-1vSowsgPrVXQK73tTIpiTiluEGLTF3jC4svEmgCnHfM-g8XVl_lmBdLVG22blKn3f7VMrkeOxyJBsZYx/pub">Resume</a>
+            <a href="https://docs.google.com/document/d/1dGjE_g2sGJewweLGlLAwPHzWmI0aiyK-KpN28R_2i9I/edit?usp=sharing">Resume</a>
         </nav>
     </header>
   );

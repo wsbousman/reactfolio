@@ -24,6 +24,14 @@ code {
   text-align: center;
 }
 
+.push {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
 .bg {
   background: url("https://i.imgur.com/xlEPGh1.png");
   background-size: cover;
@@ -53,7 +61,7 @@ code {
 .about {
   padding: 15px 0px 0px 450px;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 32px;
   color: rgb(0, 182, 238);
   text-shadow: 3px 3px #313131;
 }
@@ -61,7 +69,7 @@ code {
 .blurb {
   padding: 10px 200px 0px 200px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 24px;
   color: #a80079;
   text-shadow: 2px 2px #313131;
 }
@@ -70,7 +78,7 @@ code {
   padding: 10px 500px 0px 0px;
   text-align: right;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 24px;
   color: #a80079;
   text-shadow: 2px 2px #313131;
 }

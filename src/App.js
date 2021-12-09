@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Project from './components/Project';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import push from "../src/Assets/push.png";
 import { 
   BrowserRouter,
   Routes,
@@ -34,6 +35,9 @@ function App() {
       ></Nav>
       </Header>
       <main>
+        <div className="push">
+          <img src={push} alt="language-agnostic deadlock extraordinaire" />
+        </div>
         <Routes>
           <Route exact path ="/" element={<About currentCategory={currentCategory}></About>}/>
           <Route exact path="/project" element={<Project></Project>}/>
