@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactfolio/static/css/main.d11eb450.chunk.css",
-    "main.js": "/reactfolio/static/js/main.949f7797.chunk.js",
-    "main.js.map": "/reactfolio/static/js/main.949f7797.chunk.js.map",
+    "main.js": "/reactfolio/static/js/main.bc83290c.chunk.js",
+    "main.js.map": "/reactfolio/static/js/main.bc83290c.chunk.js.map",
     "runtime-main.js": "/reactfolio/static/js/runtime-main.a64f9812.js",
     "runtime-main.js.map": "/reactfolio/static/js/runtime-main.a64f9812.js.map",
     "static/js/2.782c5030.chunk.js": "/reactfolio/static/js/2.782c5030.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.d11eb450.chunk.css.map": "/reactfolio/static/css/main.d11eb450.chunk.css.map",
     "static/js/2.782c5030.chunk.js.LICENSE.txt": "/reactfolio/static/js/2.782c5030.chunk.js.LICENSE.txt",
     "static/media/genny.970f4091.png": "/reactfolio/static/media/genny.970f4091.png",
-    "static/media/push.98e30543.png": "/reactfolio/static/media/push.98e30543.png",
+    "static/media/push.7bd34a36.png": "/reactfolio/static/media/push.7bd34a36.png",
     "static/media/reactfolio.eb4d0da6.png": "/reactfolio/static/media/reactfolio.eb4d0da6.png",
     "static/media/shot.5a0276a4.jpg": "/reactfolio/static/media/shot.5a0276a4.jpg",
     "static/media/thotimus.98a61f05.png": "/reactfolio/static/media/thotimus.98a61f05.png",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a64f9812.js",
     "static/js/2.782c5030.chunk.js",
     "static/css/main.d11eb450.chunk.css",
-    "static/js/main.949f7797.chunk.js"
+    "static/js/main.bc83290c.chunk.js"
   ]
 }
