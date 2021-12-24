@@ -11,7 +11,7 @@ function project() {
       <div className="wrap">
         <a href="https://github.com/wsbousman/Genny"><img src={genny} alt="random password generator" /></a>
       </div>
-        <p className="port">Genny is a JavaScript random password generator with a variety of optional character sets.</p>
+        <p className="port">Genny is a JavaScript random password generator that iterates over a variety of optional arrays of Unicode character codes.</p>
     
       <div className="wrap">
         <a href="https://github.com/wsbousman/GetTimer"><img src={timerex} alt="a timer built without setInterval or setTimeout methods" /></a>
