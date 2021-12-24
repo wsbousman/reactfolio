@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/reactfolio/static/css/main.8217977d.chunk.css",
-    "main.js": "/reactfolio/static/js/main.bccc1cf5.chunk.js",
-    "main.js.map": "/reactfolio/static/js/main.bccc1cf5.chunk.js.map",
-    "runtime-main.js": "/reactfolio/static/js/runtime-main.91472452.js",
-    "runtime-main.js.map": "/reactfolio/static/js/runtime-main.91472452.js.map",
-    "static/js/2.6db21884.chunk.js": "/reactfolio/static/js/2.6db21884.chunk.js",
-    "static/js/2.6db21884.chunk.js.map": "/reactfolio/static/js/2.6db21884.chunk.js.map",
-    "static/js/3.c08765ed.chunk.js": "/reactfolio/static/js/3.c08765ed.chunk.js",
-    "static/js/3.c08765ed.chunk.js.map": "/reactfolio/static/js/3.c08765ed.chunk.js.map",
+    "main.css": "/reactfolio/static/css/main.d11eb450.chunk.css",
+    "main.js": "/reactfolio/static/js/main.949f7797.chunk.js",
+    "main.js.map": "/reactfolio/static/js/main.949f7797.chunk.js.map",
+    "runtime-main.js": "/reactfolio/static/js/runtime-main.a64f9812.js",
+    "runtime-main.js.map": "/reactfolio/static/js/runtime-main.a64f9812.js.map",
+    "static/js/2.782c5030.chunk.js": "/reactfolio/static/js/2.782c5030.chunk.js",
+    "static/js/2.782c5030.chunk.js.map": "/reactfolio/static/js/2.782c5030.chunk.js.map",
+    "static/js/3.6f825893.chunk.js": "/reactfolio/static/js/3.6f825893.chunk.js",
+    "static/js/3.6f825893.chunk.js.map": "/reactfolio/static/js/3.6f825893.chunk.js.map",
     "index.html": "/reactfolio/index.html",
-    "static/css/main.8217977d.chunk.css.map": "/reactfolio/static/css/main.8217977d.chunk.css.map",
-    "static/js/2.6db21884.chunk.js.LICENSE.txt": "/reactfolio/static/js/2.6db21884.chunk.js.LICENSE.txt",
+    "static/css/main.d11eb450.chunk.css.map": "/reactfolio/static/css/main.d11eb450.chunk.css.map",
+    "static/js/2.782c5030.chunk.js.LICENSE.txt": "/reactfolio/static/js/2.782c5030.chunk.js.LICENSE.txt",
     "static/media/genny.970f4091.png": "/reactfolio/static/media/genny.970f4091.png",
+    "static/media/push.98e30543.png": "/reactfolio/static/media/push.98e30543.png",
+    "static/media/reactfolio.eb4d0da6.png": "/reactfolio/static/media/reactfolio.eb4d0da6.png",
     "static/media/shot.5a0276a4.jpg": "/reactfolio/static/media/shot.5a0276a4.jpg",
     "static/media/thotimus.98a61f05.png": "/reactfolio/static/media/thotimus.98a61f05.png",
     "static/media/timerex.6b4bfbb6.png": "/reactfolio/static/media/timerex.6b4bfbb6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.91472452.js",
-    "static/js/2.6db21884.chunk.js",
-    "static/css/main.8217977d.chunk.css",
-    "static/js/main.bccc1cf5.chunk.js"
+    "static/js/runtime-main.a64f9812.js",
+    "static/js/2.782c5030.chunk.js",
+    "static/css/main.d11eb450.chunk.css",
+    "static/js/main.949f7797.chunk.js"
   ]
 }
