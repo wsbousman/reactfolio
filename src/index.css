@@ -35,6 +35,7 @@ code {
 .bg {
   background: url("https://i.imgur.com/xlEPGh1.png");
   background-size: cover;
+  animation: scroll 240s linear infinite;
 }
 
 .img {
