@@ -39,7 +39,7 @@ code {
 
 @media (prefers-reduced-motion: no-preference) {
   .bg {
-    animation: Bg-spin infinite 40s linear;
+    animation: scroll infinite 40s linear;
   }
 }
 
