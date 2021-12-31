@@ -35,7 +35,21 @@ code {
 .bg {
   background: url("https://i.imgur.com/xlEPGh1.png");
   background-size: cover;
-  animation: scroll 240s linear infinite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .bg {
+    animation: Bg-spin infinite 20s linear;
+  }
+}
+
+@keyframes Bg-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .img {
