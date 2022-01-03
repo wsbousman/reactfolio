@@ -5,11 +5,7 @@ import Project from './components/Project';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import push from "../src/Assets/push.png";
-import { 
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -37,8 +33,8 @@ function App() {
           <img src={push} alt="language-agnostic deadlock extraordinaire" />
         </div>
         <Routes>
-          <Route exact path ="/" element={<About currentCategory={currentCategory}></About>}/>
-          <Route exact path="/project" element={<Project></Project>}/>
+          <Route exact path ="/About" element={<About currentCategory={currentCategory}></About>}/>
+          <Route exact path="/Project" element={<Project></Project>}/>
         </Routes>
       <Footer></Footer>
       </main>
