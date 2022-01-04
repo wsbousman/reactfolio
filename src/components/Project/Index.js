@@ -5,20 +5,19 @@ import timerex from "../../Assets/timerexPNG.png";
 import reactfolio from "../../Assets/reactfolioPNG.png";
 import htmlport from "../../Assets/htmlportPNG.png";
 
-
 function project() {
 
   return (
     <section>
+      <p className="port">The code snippets featured here are transparent-background PNGs and are links to each project's GitHub repository.</p>
       <div className="wrap">
         <a href="https://github.com/wsbousman/reactfolio"><img src={reactfolio} alt="a React portfolio" /></a>
       </div>
-        <p className="port">I built the site you're currently viewing using React. The code snippets featured here are transparent-background PNGs and are links to each project's GitHub repository.</p>
+        <p className="port">I built the site you're currently viewing using React. It uses declarative component routing.</p>
       <div className="wrap">
         <a href="https://github.com/wsbousman/Genny"><img src={genny} alt="random password generator" /></a>
       </div>
         <p className="port">Genny is a JavaScript password generator that randomly iterates over a variety of optional arrays of Unicode character codes.</p>
-    
       <div className="wrap">
         <a href="https://github.com/wsbousman/GetTimer"><img src={timerex} alt="a timer built without setInterval or setTimeout methods" /></a>
       </div>

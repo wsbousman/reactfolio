@@ -61,19 +61,19 @@ code {
 }
 
 .head {
-  padding: 0px 500px 0px 0px;
+  padding: 0px 550px 0px 0px;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 30px;
   color: #a80079;
   text-shadow: 3px 3px #313131;
   text-align: right
 }
 
 .h1 {
-  padding: 30px 0 0 500px;
-  font-size: 45px;
+  padding: 70px 0 0 550px;
+  font-size: 50px;
   color: rgb(0, 182, 238);
-  text-shadow: 3px 3px #313131;
+  text-shadow: 3px 3px #444444;
   text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ code {
   font-weight: 300;
   font-size: 24px;
   color: #a80079;
-  text-shadow: 2px 2px #313131;
+  text-shadow: 2px 2px #444444;
 }
 
 .moto {
@@ -112,6 +112,7 @@ code {
 
 a {
   color: rgb(0, 182, 238);
+  text-decoration: none;
 }
 
 .nav {
@@ -123,7 +124,7 @@ a {
   font-weight: 200;
   font-size: 28px;
   color: rgb(0, 182, 238);
-  text-shadow: 3px 3px #313131;
+  text-shadow: 3px 3px #474747;
   text-decoration: none;
 }
 

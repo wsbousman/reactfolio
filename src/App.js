@@ -1,46 +1,31 @@
-import React, { useState } from 'react';
+import React, { Component } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Project from './components/Project';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import push from "../src/Assets/push.png";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Push from './components/Push';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [categories] = useState([
-    { name: 'About', description: '', },
-    { name: 'Portfolio', description: 'Endlessly pursuing clean code' },
-    { name: 'Resume', description: 'Client-facing experience' },
-  ]);
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+class App extends Component {
 
-  return (
+  render() {
+
+    return (
     <div className="bg">
-      <BrowserRouter>
-      <Header>
-      <Nav
-      categories={categories}
-      setCurrentCategory={setCurrentCategory}
-      currentCategory={currentCategory}
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
-      ></Nav>
-      </Header>
-      <main>
-        <div className="push">
-          <img src={push} alt="language-agnostic deadlock extraordinaire" />
-        </div>
-        <Routes>
-          <Route exact path ="/About" element={<About currentCategory={currentCategory}></About>}/>
-          <Route exact path="/Project" element={<Project></Project>}/>
-        </Routes>
-      <Footer></Footer>
-      </main>
-      </BrowserRouter>
+      <Router>
+      <Header />
+      <Nav />
+      <Routes>
+        <Route exact path ="/About" element={<About></About>}/>
+        <Route exact path="/Project" element={<Project></Project>}/>
+        <Route exact path="/" element={<Push></Push>}/>
+        <Route exact path="/reactfolio" element={<Push></Push>}/>
+      </Routes>
+      <Footer />
+      </Router>
     </div>
-  );
+  )}
 }
 
 export default App;
