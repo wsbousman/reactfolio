@@ -9,13 +9,18 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 class App extends Component {
 
+  conditional = {value: true}
+
   render() {
 
     return (
+      
     <div className="bg">
       <Router>
-      <Header />
+      {/*conditional rendering via ternary operator*/}
+      {this.conditional.value ? <Header /> : null}
       <Nav />
+      {/*declarative component routing*/}
       <Routes>
         <Route exact path ="/About" element={<About></About>}/>
         <Route exact path="/Project" element={<Project></Project>}/>

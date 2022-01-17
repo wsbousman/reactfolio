@@ -113,7 +113,7 @@ code {
 a {
   color: rgb(0, 182, 238);
   text-decoration: none;
-  transition: color 2s;
+  transition: color 1.5s;
 }
 
 a:hover {
@@ -177,7 +177,7 @@ a:hover {
   justify-content: center;
   text-align: center;
   font-weight: 400;
-  font-size: 32px;
-  color: #a80079;
+  font-size: 30px;
+  color: #b40081;
   text-shadow: 3px 3px #313131;
 }

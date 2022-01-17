@@ -9,11 +9,11 @@ function project() {
 
   return (
     <section>
-      <p className="port">The code snippets featured here are transparent-background PNGs and are links to each project's GitHub repository.</p>
+      <p className="port2">The code snippets featured here are transparent-background PNGs and are links to each project's GitHub repository.</p>
       <div className="wrap">
         <a href="https://github.com/wsbousman/reactfolio"><img src={reactfolio} alt="a React portfolio" /></a>
       </div>
-        <p className="port">I built the site you're currently viewing using React. It uses declarative component routing.</p>
+        <p className="port">I built the site you're currently viewing using React. It uses both conditional component rendering and declarative routing.</p>
       <div className="wrap">
         <a href="https://github.com/wsbousman/Genny"><img src={genny} alt="random password generator" /></a>
       </div>
