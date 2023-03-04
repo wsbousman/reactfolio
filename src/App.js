@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import About from './components/About';
-import Nav from './components/Nav';
-import Project from './components/Project';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Push from './components/Push';
+import About from './components/About/Index.js';
+import Nav from './components/Nav/Index.js';
+import Project from './components/Project/Index.js';
+import Header from './components/Header/Index.js';
+import Footer from './components/Footer/Index.js';
+import Push from './components/Push/Index.js';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 class App extends Component {

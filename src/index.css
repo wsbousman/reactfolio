@@ -55,6 +55,26 @@ code {
 }
 */
 
+@media 
+  (min-device-width: 375px)
+  and (orientation: landscape) {
+  .h1 {
+    padding: 0px 0px 0px 0px;
+    font-size: 50px;
+    color: rgb(0, 182, 238);
+    text-shadow: 3px 3px #444444;
+    text-decoration: none;
+  }
+  .head {
+    padding: 0px 550px 0px 0px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #b80385;
+    text-shadow: 3px 3px #313131;
+    text-align: right
+  }
+}
+
 .img {
   width: 55%;
   border-radius: 12px
